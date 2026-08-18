@@ -3,33 +3,33 @@
 int main(){ // Declarando uma Variavel
 	int opcao; // Variavel Principal
 	
-	printf("=== Menu Principal === \n");
-	printf("1. Iniciar Jogo \n");
-	printf("2. Carregar Jogo \n");
-	printf("3. ConfiguraÁıes \n");
-	printf("4. Sair \n");
-	scanf("%d", &opcao);
+	printf("=== Menu Principal === \n"); // Apresenta uma informa√ß√£o na tela
+	printf("1. Iniciar Jogo \n"); // Apresenta uma informa√ß√£o na tela
+	printf("2. Carregar Jogo \n"); // Apresenta uma informa√ß√£o na tela
+	printf("3. Configura√ß√µes \n"); // Apresenta uma informa√ß√£o na tela
+	printf("4. Sair \n"); // Apresenta uma informa√ß√£o na tela
+	scanf("%d", &opcao); // Captura uma Variavel - "opcao"
 	
-	switch (opcao){ // SeleÁ„o da caso
+	switch (opcao){ // Sele√ß√£o da caso
 		case 1: // Caso um
 			printf("\n Iniciando um Jogo... \n");
-			break; // Parar na condiÁ„o
+			break; // Parar na condi√ß√£o
 			
 		case 2: // Caso dois
 			printf("\n Carregando save anterior... \n");
-			break; // Parar na condiÁ„o
+			break; // Parar na condi√ß√£o
 			
-		case 3: // Caso trÍs
+		case 3: // Caso tr√™s
 			printf("\n Abrindo painel de configurcoes... \n");
-			break; // Parar na condiÁ„o
+			break; // Parar na condi√ß√£o
 			
 		case 4: // Caso quatro
 			printf("\n Saindo do programa. Ate mais! \n");
-			break; // Parar na condiÁ„o
+			break; // Parar na condi√ß√£o
 			
-		default: // N„o encontra o caso
-			printf("\n OpÁ„o invalida! Escolha um numero de 1 a 4 \n");
-			break; // Parar na condiÁ„o
+		default: // N√£o encontra o caso
+			printf("\n Op√ß√£o invalida! Escolha um numero de 1 a 4 \n");
+			break; // Parar na condi√ß√£o
 	}
 	
 	return 0; // Fim do Programa
